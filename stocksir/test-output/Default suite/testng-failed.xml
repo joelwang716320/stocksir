@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.stocksir.testcase.home.HomePage_001_Login_TopCheck_Test">
+        <methods>
+          <include name="topCheck"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.home.HomePage_001_Login_TopCheck_Test -->
+      <class name="com.stocksir.testcase.login.LoginPage_008_EXIT_After_Login_Test">
+        <methods>
+          <include name="exitLoginTest"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.login.LoginPage_008_EXIT_After_Login_Test -->
+      <class name="com.stocksir.testcase.home.HomePage_002_Login_UserInfoTabClick_Test">
+        <methods>
+          <include name="loginUserInfoTabClick"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.home.HomePage_002_Login_UserInfoTabClick_Test -->
+      <class name="com.stocksir.testcase.login.LoginPage_002_Login_Success_Test">
+        <methods>
+          <include name="loginSuccessTest"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.login.LoginPage_002_Login_Success_Test -->
+      <class name="com.stocksir.testcase.login.LoginPage_004_Fail_Only_Username_Test">
+        <methods>
+          <include name="loginFailTest_Username"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.login.LoginPage_004_Fail_Only_Username_Test -->
+      <class name="com.stocksir.testcase.login.LoginPage_005_Fail_Only_Password_Test">
+        <methods>
+          <include name="loginFailTest_Password"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.login.LoginPage_005_Fail_Only_Password_Test -->
+      <class name="com.stocksir.testcase.login.LoginPage_007_Fail_Incorrect_Password_Test">
+        <methods>
+          <include name="loginFailTest_incorrectPassword"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.login.LoginPage_007_Fail_Incorrect_Password_Test -->
+      <class name="com.stocksir.testcase.login.LoginPage_001_UI_Test">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.login.LoginPage_001_UI_Test -->
+      <class name="com.stocksir.testcase.login.LoginPage_003_Fail_AllEmpty_Test">
+        <methods>
+          <include name="loginFailTest_AllEmpty"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.login.LoginPage_003_Fail_AllEmpty_Test -->
+      <class name="com.stocksir.testcase.login.LoginPage_006_Fail_Incorrect_Username_Test">
+        <methods>
+          <include name="loginFailTest_incorrectUsername"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.login.LoginPage_006_Fail_Incorrect_Username_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

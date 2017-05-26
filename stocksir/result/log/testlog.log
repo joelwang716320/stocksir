@@ -1,0 +1,54 @@
+[2017-05-26 16:04:07] [INFO] RetryCount=1
+[2017-05-26 16:04:07] [INFO] SourceDir=src/test/java/com/biz/jnc/testcase
+[2017-05-26 16:04:07] [INFO] SourceEncoding=UTF-8
+[2017-05-26 16:04:07] [INFO] 当前操作系统是 [Windows 7]
+[2017-05-26 16:04:07] [INFO] 启动测试浏览器[chrome]
+[2017-05-26 16:04:10] [INFO] 最大化浏览器:chrome
+[2017-05-26 16:04:14] [INFO] 打开测试页面:[http://merchants.guxiansheng.cn/]
+[2017-05-26 16:04:14] [INFO] topCheck 测试用例开始执行！
+[2017-05-26 16:04:14] [INFO] topCheck 测试用例开始执行！
+[2017-05-26 16:04:14] [INFO] start checking login page elements
+[2017-05-26 16:04:14] [INFO] 开始查找元素[By.cssSelector: input[name='username']]
+[2017-05-26 16:04:14] [INFO] 找到了元素 [By.cssSelector: input[name='username']]
+[2017-05-26 16:04:14] [INFO] 开始查找元素[By.cssSelector: input[name='password']]
+[2017-05-26 16:04:14] [INFO] 找到了元素 [By.cssSelector: input[name='password']]
+[2017-05-26 16:04:14] [INFO] 开始查找元素[By.cssSelector: button[type='submit']]
+[2017-05-26 16:04:14] [INFO] 找到了元素 [By.cssSelector: button[type='submit']]
+[2017-05-26 16:04:14] [INFO] check login page elements completed
+[2017-05-26 16:04:14] [INFO] start checking login page text
+[2017-05-26 16:04:14] [INFO] 找到了期望的文字: [用户名]
+[2017-05-26 16:04:14] [INFO] 找到了期望的文字: [密码]
+[2017-05-26 16:04:14] [INFO] 找到了期望的文字: [登 录]
+[2017-05-26 16:04:14] [INFO] check login page text completed
+[2017-05-26 16:04:14] [INFO] 清除元素 [ css selector: input[name='username']]上的内容
+[2017-05-26 16:04:14] [INFO] 输入：[admin_jj] 到 [ css selector: input[name='username']]
+[2017-05-26 16:04:14] [INFO] 清除元素 [ css selector: input[name='password']]上的内容
+[2017-05-26 16:04:14] [INFO] 输入：[123456] 到 [ css selector: input[name='password']]
+[2017-05-26 16:04:16] [INFO] 点击元素 [ css selector: button[type='submit']]
+[2017-05-26 16:04:16] [INFO] Start checking home page elements
+[2017-05-26 16:04:16] [INFO] 开始查找元素[By.cssSelector: strong.font-bold]
+[2017-05-26 16:04:16] [INFO] 找到了元素 [By.cssSelector: strong.font-bold]
+[2017-05-26 16:04:16] [INFO] 开始查找元素[By.xpath: //button[text()='关闭操作']]
+[2017-05-26 16:04:17] [INFO] 找到了元素 [By.xpath: //button[text()='关闭操作']]
+[2017-05-26 16:04:17] [INFO] 开始查找元素[By.cssSelector: a[class]]
+[2017-05-26 16:04:17] [INFO] 找到了元素 [By.cssSelector: a[class]]
+[2017-05-26 16:04:17] [INFO] 开始查找元素[By.cssSelector: span.l-btn-text.icon-back.l-btn-icon-left]
+[2017-05-26 16:04:32] [ERROR] 超时!! 15 秒之后还没找到元素 [By.cssSelector: span.l-btn-text.icon-back.l-btn-icon-left]
+[2017-05-26 16:04:32] [INFO] Retry for： [topCheck] on class [com.stocksir.testcase.home.HomePage_001_Login_TopCheck_Test] retry 1 times
+[2017-05-26 16:04:32] [WARN] topCheck 测试用例由于某些原因被跳过！
+[2017-05-26 16:04:32] [INFO] [2017_05_26_16_04_32_topCheck] screenshot successfully，saved：[ result/screenshot/chrome/2017_05_26_16_04_32_topCheck.jpg ]
+[2017-05-26 16:04:32] [WARN] topCheck 测试用例由于某些原因被跳过！
+[2017-05-26 16:04:32] [INFO] [2017_05_26_16_04_32_topCheck] screenshot successfully，saved：[ result/screenshot/chrome/2017_05_26_16_04_32_topCheck.jpg ]
+[2017-05-26 16:04:32] [INFO] topCheck 测试用例开始执行！
+[2017-05-26 16:04:32] [INFO] topCheck 测试用例开始执行！
+[2017-05-26 16:04:32] [INFO] start checking login page elements
+[2017-05-26 16:04:32] [INFO] 开始查找元素[By.cssSelector: input[name='username']]
+[2017-05-26 16:04:47] [ERROR] 超时!! 15 秒之后还没找到元素 [By.cssSelector: input[name='username']]
+[2017-05-26 16:04:47] [WARN] topCheck 测试用例执行失败！
+[2017-05-26 16:04:47] [INFO] [2017_05_26_16_04_47_topCheck] screenshot successfully，saved：[ result/screenshot/chrome/2017_05_26_16_04_47_topCheck.jpg ]
+[2017-05-26 16:04:47] [WARN] topCheck 测试用例执行失败！
+[2017-05-26 16:04:48] [INFO] [2017_05_26_16_04_47_topCheck] screenshot successfully，saved：[ result/screenshot/chrome/2017_05_26_16_04_47_topCheck.jpg ]
+[2017-05-26 16:04:49] [INFO] 被跳过的用例 = topCheck
+[2017-05-26 16:04:49] [INFO] 执行失败的用例 = topCheck
+[2017-05-26 16:04:49] [INFO] 移除重复失败的用例 = topCheck
+[2017-05-26 16:04:49] [INFO] 被跳过的用例 = topCheck

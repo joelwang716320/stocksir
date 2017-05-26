@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [StockSirAutoTest]" parallel="tests">
+  <parameter name="indexGoods" value="0"/>
+  <parameter name="databasePath" value="config/database.properties"/>
+  <parameter name="indexCars" value="8"/>
+  <parameter name="driverConfgFilePath" value="config/driver.properties"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="sleepTime" value="800"/>
+  <parameter name="testurl" value="http://merchants.guxiansheng.cn/"/>
+  <parameter name="waitMillisecondsForAlert" value="40000"/>
+  <parameter name="userInfoPath" value="config/user.properties"/>
+  <parameter name="timeOut" value="15"/>
+  <listeners>
+    <listener class-name="com.stocksir.plugins.arrow.TestResultListener"/>
+    <listener class-name="com.stocksir.plugins.arrow.RetryListener"/>
+    <listener class-name="com.stocksir.plugins.arrow.PowerEmailableReporter"/>
+  </listeners>
+  <test name="单例测试(failed)" parallel="tests">
+    <classes>
+      <class name="com.stocksir.testcase.home.HomePage_001_Login_TopCheck_Test">
+        <methods>
+          <include name="startTest"/>
+          <include name="endTest"/>
+          <include name="topCheck" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- com.stocksir.testcase.home.HomePage_001_Login_TopCheck_Test -->
+    </classes>
+  </test> <!-- 单例测试(failed) -->
+</suite> <!-- Failed suite [StockSirAutoTest] -->
